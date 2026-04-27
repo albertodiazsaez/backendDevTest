@@ -63,7 +63,7 @@ mvn spring-boot:run
 Or run the JAR:
 
 ```bash
-java -jar target/similar-product-api-0.0.1-SNAPSHOT.jar
+java -jar target/similarItemApi-0.0.1-SNAPSHOT.jar
 ```
 
 ---
