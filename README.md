@@ -6,7 +6,7 @@ This project is a Spring Boot REST API that returns products similar to a given 
 
 ## Features
 
-- Retrieve similar products by product ID, agregated from Existing API
+- Retrieve similar products by product ID, aggregated from Existing API
 - In-memory caching for improved performance
 - Global exception handling
 - OpenAPI / Swagger documentation
@@ -15,7 +15,7 @@ This project is a Spring Boot REST API that returns products similar to a given 
 
 ## Versions
 
-- Java 17
+- Java 21
 - Spring Boot 3
 - Spring Web (MVC)
 - Spring Cache
@@ -45,6 +45,8 @@ cd backendDevTest
 ---
 
 ### 2. Build the project
+
+Make sure both JRE and JDK are installed on your system.
 
 ```bash
 mvn clean install
