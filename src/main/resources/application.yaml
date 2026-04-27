@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: similarItemApi
+server:
+  port: 5000
+  
+env:
+  existingApiUrl: http://localhost:3001
